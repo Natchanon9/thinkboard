@@ -411,6 +411,35 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@upstash/core-analytics@npm:^0.0.10":
+  version: 0.0.10
+  resolution: "@upstash/core-analytics@npm:0.0.10"
+  dependencies:
+    "@upstash/redis": "npm:^1.28.3"
+  checksum: 10c0/c90b1bfaf1f54eed8a48f2aa679f8e082083f49931cf08bd90a0a0035b010f65b6e7420268677f15df1d04687f7e5a9093320c591ef4dbd45d804ea83d890f3f
+  languageName: node
+  linkType: hard
+
+"@upstash/ratelimit@npm:^2.0.7":
+  version: 2.0.7
+  resolution: "@upstash/ratelimit@npm:2.0.7"
+  dependencies:
+    "@upstash/core-analytics": "npm:^0.0.10"
+  peerDependencies:
+    "@upstash/redis": ^1.34.3
+  checksum: 10c0/a90145c0c59812cb3f1e286934e2085468cb2acedc7267ac72af67912cfa736f3508b8b39e921fbfb208a1d3588dea6a27eef99f5a3189345619f784938f1816
+  languageName: node
+  linkType: hard
+
+"@upstash/redis@npm:^1.28.3":
+  version: 1.36.0
+  resolution: "@upstash/redis@npm:1.36.0"
+  dependencies:
+    uncrypto: "npm:^0.1.3"
+  checksum: 10c0/b33badef3014357c9486e318282114932ee9eb0f3730024115c2cd0282d8428eca66c3b30f2895f91b2eb5e4a89001cf6312bfff4dc2be34ee1d7c6f438392bb
+  languageName: node
+  linkType: hard
+
 "abbrev@npm:^4.0.0":
   version: 4.0.0
   resolution: "abbrev@npm:4.0.0"
@@ -1928,6 +1957,7 @@ __metadata:
   dependencies:
     "@types/express": "npm:^5"
     "@types/node": "npm:^25.0.3"
+    "@upstash/ratelimit": "npm:^2.0.7"
     dotenv: "npm:^17.2.3"
     express: "npm:^5.2.1"
     mongoose: "npm:^9.1.1"
@@ -2074,6 +2104,13 @@ __metadata:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: 10c0/ad09fdf7a756814dce65bc60c1657b40d44451346858eea230e10f2e95a289d9183b6e32e5c11e95acc0ccc214b4f36289dcad4bf1886b0adb84d711d336a430
+  languageName: node
+  linkType: hard
+
+"uncrypto@npm:^0.1.3":
+  version: 0.1.3
+  resolution: "uncrypto@npm:0.1.3"
+  checksum: 10c0/74a29afefd76d5b77bedc983559ceb33f5bbc8dada84ff33755d1e3355da55a4e03a10e7ce717918c436b4dfafde1782e799ebaf2aadd775612b49f7b5b2998e
   languageName: node
   linkType: hard
 
