@@ -14,6 +14,7 @@
   "dependencies": {
     "@types/node": "^25.0.3",
     "@upstash/ratelimit": "^2.0.7",
+    "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
     "mongoose": "^9.1.1",
@@ -24,6 +25,7 @@
   },
   "packageManager": "yarn@4.6.0+sha512.5383cc12567a95f1d668fbe762dfe0075c595b4bfff433be478dbbe24e05251a8e8c3eb992a986667c1d53b6c3a9c85b8398c35a960587fbd9fa3a0915406728",
   "devDependencies": {
+    "@types/cors": "^2",
     "@types/express": "^5",
     "tsx": "^4.21.0"
   }
