@@ -1926,35 +1926,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"frontend@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "frontend@workspace:."
-  dependencies:
-    "@eslint/js": "npm:^9.39.1"
-    "@types/node": "npm:^24.10.1"
-    "@types/react": "npm:^19.2.5"
-    "@types/react-dom": "npm:^19.2.3"
-    "@vitejs/plugin-react": "npm:^5.1.1"
-    autoprefixer: "npm:^10.4.23"
-    axios: "npm:^1.13.2"
-    daisyui: "npm:4.12.24"
-    eslint: "npm:^9.39.1"
-    eslint-plugin-react-hooks: "npm:^7.0.1"
-    eslint-plugin-react-refresh: "npm:^0.4.24"
-    globals: "npm:^16.5.0"
-    lucide-react: "npm:^0.562.0"
-    postcss: "npm:^8.5.6"
-    react: "npm:^19.2.0"
-    react-dom: "npm:^19.2.0"
-    react-hot-toast: "npm:^2.6.0"
-    react-router: "npm:^7.11.0"
-    tailwindcss: "npm:^3.4.19"
-    typescript: "npm:~5.9.3"
-    typescript-eslint: "npm:^8.46.4"
-    vite: "npm:^7.2.4"
-  languageName: unknown
-  linkType: soft
-
 "fs-minipass@npm:^3.0.0":
   version: 3.0.3
   resolution: "fs-minipass@npm:3.0.3"
@@ -3337,6 +3308,35 @@ __metadata:
   checksum: 10c0/f375aeb2b05c100a456a30bc3ed07ef03a39cbdefe02e0403fb714b8c7e57eeaad1a2f5c4ecfb9ce554ce3db9c2b024eba144843cd9e344566d9fcee73b04767
   languageName: node
   linkType: hard
+
+"thinkboard-frontend@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "thinkboard-frontend@workspace:."
+  dependencies:
+    "@eslint/js": "npm:^9.39.1"
+    "@types/node": "npm:^24.10.1"
+    "@types/react": "npm:^19.2.5"
+    "@types/react-dom": "npm:^19.2.3"
+    "@vitejs/plugin-react": "npm:^5.1.1"
+    autoprefixer: "npm:^10.4.23"
+    axios: "npm:^1.13.2"
+    daisyui: "npm:4.12.24"
+    eslint: "npm:^9.39.1"
+    eslint-plugin-react-hooks: "npm:^7.0.1"
+    eslint-plugin-react-refresh: "npm:^0.4.24"
+    globals: "npm:^16.5.0"
+    lucide-react: "npm:^0.562.0"
+    postcss: "npm:^8.5.6"
+    react: "npm:^19.2.0"
+    react-dom: "npm:^19.2.0"
+    react-hot-toast: "npm:^2.6.0"
+    react-router: "npm:^7.11.0"
+    tailwindcss: "npm:^3.4.19"
+    typescript: "npm:~5.9.3"
+    typescript-eslint: "npm:^8.46.4"
+    vite: "npm:^7.2.4"
+  languageName: unknown
+  linkType: soft
 
 "tinyglobby@npm:^0.2.11, tinyglobby@npm:^0.2.12, tinyglobby@npm:^0.2.15":
   version: 0.2.15
